@@ -32,9 +32,9 @@ class CategoryResource extends Resource
         ->schema([
             Card::make()->schema([
                 TextInput::make('name')
-                    ->required(),  // Add this
+                    ->required(),
                 TextInput::make('slug')
-                    ->required()  // Add this
+                    ->required()  
             ])
         ]);
 }

@@ -36,7 +36,7 @@ class StudentrecordsResource extends Resource
                   ->relationship('customer', 'firstname'),
                 TextInput::make('number_books'),
                 TextInput::make('balance'),
-                TextInput::make('total'),
+                TextInput::make('total')
             ]);
     }
 
