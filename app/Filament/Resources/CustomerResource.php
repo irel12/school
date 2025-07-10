@@ -48,7 +48,7 @@ class CustomerResource extends Resource
                     ->revealable(),
                   TextInput::make('age')->required(),
                   TextInput::make('contact_number')->required()
-                   ->autocapitalize('words')
+                   ->autocapitalize('words'),
                    
                 ])
             ]);
