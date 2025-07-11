@@ -33,7 +33,9 @@ class StudentrecordsResource extends Resource
                 DatePicker::make('student_contact'),
                 TextInput::make('student_course'),
                 Select::make('customer_id')
-                  ->relationship('customer', 'firstname'),
+                  ->reactive()
+                  ->relationship('customer', 'firstname')
+                  ,
                 TextInput::make('number_books'),
                 TextInput::make('balance'),
                 TextInput::make('total'),

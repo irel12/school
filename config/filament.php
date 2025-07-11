@@ -86,4 +86,17 @@ return [
 
     'livewire_loading_delay' => 'default',
 
+
+    
+    // ...
+
+    // OR with logo (optional)
+    'brand' => [
+        'name' => 'BISU CC',
+        'logo' => asset('images/logo.png'), // Optional
+        'dark_logo' => asset('images/logo-dark.png'), // Optional (for dark mode)
+    ],
+
+    // ...
+
 ];
