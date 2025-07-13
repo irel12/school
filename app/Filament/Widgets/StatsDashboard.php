@@ -15,7 +15,7 @@ class StatsDashboard extends BaseWidget
             ->description('32k increase')
             ->descriptionIcon('heroicon-m-arrow-trending-up')
             ->color('success'),
-            Stat::make('Bounce rate', '69%')
+            Stat::make('No. of Students', '69%')
                 ->description('7% increase')
                 ->descriptionIcon('heroicon-m-arrow-trending-down')
                 ->color('danger'),
