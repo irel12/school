@@ -23,7 +23,7 @@ class AdminPanelProvider extends PanelProvider
     public function panel(Panel $panel): Panel
     {
         return $panel
-            ->brandName('Students Management System')
+            ->brandName('Student Management System')
             ->default()
             ->sidebarCollapsibleOnDesktop(true)
             ->id('admin')
