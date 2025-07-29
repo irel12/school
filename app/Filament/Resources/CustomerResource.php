@@ -45,7 +45,8 @@ class CustomerResource extends Resource
                     ->placeholder('Enter Firstname....'),
                   TextInput::make('lastname')->required()
                     ->password()
-                    ->revealable(),
+                    ->revealable()
+                    ->placeholder('Enter Lastname....'),
                   TextInput::make('age')->required(),
                   TextInput::make('contact_number')->required()
                    ->autocapitalize('words'),
