@@ -44,7 +44,7 @@ class CategoryResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('name'),
-                TextColumn::make('slug'),
+                TextColumn::make('slug')
             ])
             ->filters([
                 //
